@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "node your-script.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "package.json": "^2.0.1"
+    }
+}

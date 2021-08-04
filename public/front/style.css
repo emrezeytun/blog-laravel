@@ -1,0 +1,617 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f8f8f8 !important;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.row {}
+
+a {
+    text-decoration: none !important;
+}
+
+h1, h2, h3,  p, a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ust-blok {
+    background: url(img/ust_arka.jpg);
+    background-attachment: cover;
+    padding: 5rem;
+}
+
+
+.ust-blok h1 {
+    color: #444444;
+    font-weight: 800;
+}
+
+.ust-blok p {
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+nav {
+    border-bottom: 1px solid #c7c7c7;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    margin: 0rem 4px;
+}
+
+.navbar-nav a {
+
+    color: #444444;
+    font-weight: 600;
+    transition: .4s;
+    font-size: 14px;;
+    padding: 1rem 0rem;
+}
+
+
+.navbar-nav a:hover {
+    color: #ff8a00 !important;
+}
+.navbar-nav {
+    padding-left: 2rem;
+    margin: 0 auto;
+}
+
+.sosyal-menu {
+    margin: auto 0;
+    padding-left: 10rem;
+}
+
+.sosyal-menu i {
+    color: #444444;
+    font-size: 1.4rem;
+    transition: .4s;
+    margin-left: 6px;
+}
+
+.sosyal-menu i:hover {
+    color: #ff8a00 !important;
+}
+
+.arama {
+    padding-left: 1rem;
+    margin: auto 0;
+    border: none;
+    position: relative;
+}
+
+.arama input[type=text] {
+    background-color: transparent;
+    padding-left: 8px;
+    border: 1px solid #737373;
+    border-radius: 5rem;
+}
+
+
+
+
+.arama button {
+   position: absolute;
+    right: 10px;;
+    background: transparent;
+    border: none;
+}
+
+.arama button:hover {
+    color: #737373 !important;
+}
+
+.icerik-ana {
+    padding: 2rem;
+}
+
+.icerik-ana .title a {
+    color: #444444 !important;
+    transition: .4s;
+}
+
+
+.icerik-ana .title a:hover {
+    color: #ff8a00 !important;
+}
+
+.icerik-ana .title {
+    background-color: #fff !important;
+    border-radius: 1rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border: 1px solid #d3d3d3;
+    border-bottom: none;
+    padding: 2rem;
+
+
+
+}
+
+.istatistik {
+
+    padding-top: 2rem;
+
+}
+
+.icerik-ozellik i{
+    padding-right: 3px;
+    font-size: 14px;
+    margin: auto 0;
+}
+
+.icerik-ana .title h1 {
+    color: #444444;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+
+}
+
+
+
+.icerik-ana .icerik-ozellik h2 {
+    font-size: 14px;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+}
+
+.icerik-ana .title{
+    position: relative;
+}
+
+.sag-kategori p{
+    padding-bottom: 10px;
+    color: #fff;
+    padding: 0.1rem 0.4rem;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.dd-flex {
+  display: flex;
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.makale-sidebar ul li {
+    margin-left: 0;
+    padding-left: 0;
+    padding: 0.3rem;
+    margin: 0rem 0.1rem;
+}
+
+.arama input {
+     border: 1px solid rgba(0,0,0,0.1) !important;
+      padding-right: 30px;
+    width: 180px;
+
+
+}
+
+.arama input:focus {
+    border: 1px solid rgba(0,0,0,0.4) !important;
+    outline: none;
+
+
+}
+
+
+
+.makale-sidebar ul li a{
+   color: #fff;
+}
+
+.dd-flex li {
+    cursor: pointer;
+    color: #fff;
+    transition: .4s;
+}
+
+.dd-flex li:hover {
+    opacity: .4;
+}
+
+.teknolojiLi {
+    color: #fff;
+   background-color: #262261;
+}
+
+.sag-kategori .teknoloji p {
+  background-color: #262261;
+}
+
+.saglikLi {
+      background-color: #009a00;
+
+}
+
+.sag-kategori .saglik p {
+  background-color: #009a00;
+}
+
+.sag-kategori .egitim p {
+  background-color: #ee4036;
+}
+
+.yazilimLi {
+      background-color: #faaf40;
+
+}
+
+.sag-kategori .yazilim p {
+  background-color: #faaf40;
+}
+
+.sag-kategori .bilim p {
+  background-color: #577082;
+}
+
+.sanatLi {
+   background-color: #a98cbc;
+
+}
+
+.sag-kategori .sanat p {
+  background-color: #a98cbc;
+}
+
+.icerik {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: 1px solid #d3d3d3;
+    border-top: none;
+
+    background-color: #fff !important;
+}
+
+.devam {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.icerik img {
+    padding-top: 0.6rem;
+}
+
+.icerik-ana .icerik-yazi {
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+ .icerik-yazi p {
+     padding-right: 1.2rem;
+    letter-spacing: -0.4px;
+     text-align: justify;
+}
+
+.btn-success p {
+    letter-spacing: -0.6px;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.btn-success {
+
+    border: none !important;
+    background-color: #53494a !important;
+    color: #fff !important;
+}
+
+.btn-success:hover {
+    color: #fff !important;
+    background-color: #ff8a00 !important;
+    border: none !important;
+
+}
+
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.hakkimda {
+    background-color: #fff !important;
+    border-radius: 1rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border: 1px solid #d3d3d3;
+    padding: 2rem;
+}
+
+.ana-makale {
+    padding-bottom: 3rem;
+}
+
+.icerik {
+    padding-bottom: 2rem !important;
+}
+
+.sidebar {
+    padding: 2rem;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    border: 2px solid #ff8a00;
+}
+
+.hakkimda {
+    padding: 1rem 2rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.hakkimda-sag-ust {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hakkimda-sag-ust p {
+    background-color: #ff8a00;
+    color: #fff;
+    padding: 0.1rem 0.7rem;
+}
+
+.hakkimda-yazi {
+    text-align: justify !important;
+}
+
+.kategori-sidebar ul  {
+    margin: 0;
+    padding: 0;
+}
+
+.kategori-sidebar ul li {
+    margin: 0;
+    list-style: none;
+    padding: 1px 0px;
+}
+
+.kategori-sidebar ul li i {
+    padding-right: 4px;
+}
+
+.comments i {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.makale-sidebar .yazi .fa-chevron-circle-left {
+    position: absolute;
+    left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 25%;
+    color: #FF8A00;
+}
+
+.makale-sidebar .yazi .fa-chevron-circle-right {
+    position: absolute;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 25%;
+    color: #FF8A00;
+
+}
+
+.sidebar-slick {
+    padding: 1rem;
+}
+
+
+.kategori-sidebar {
+    padding-top: 2rem;
+}
+
+.kategori-sidebar a {
+    color: #444444;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    transition: .6s;
+
+}
+
+.kategori-sidebar a:hover {
+    color: #ff8a00;
+    margin-left: 3px;
+}
+
+.yazi {
+    padding-top: 0.2rem;;
+}
+
+
+
+.yazi h1 {
+    line-height: 1rem;
+    padding-top: 3px;
+    padding-bottom: 1px;
+
+}
+
+.makale-sidebar ul li {
+    margin: 0 auto;;
+    list-style: none;
+
+}
+
+
+.yazi span {
+    color: #ff8a00;
+}
+
+
+.makale-sidebar {
+    padding-top: 2rem;
+}
+
+.makale-sidebar h1 {
+    text-align: left;
+}
+
+.makale-sidebar h1 a {
+    transition: .4s;
+    color: #444444;
+    font-size: 16px;
+    padding-top: 1rem;
+    letter-spacing: -0.7px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.makale-sidebar h1 a:hover {
+
+    color: #ff8a00;
+
+
+}
+
+.makale-sidebar p {
+    text-align: left;
+    letter-spacing: -0.4px;
+}
+
+.makale-sidebar img {
+    border: none;
+    border-radius: 0px !important;
+}
+
+.sayfa-ic img {
+
+    height: 400px;
+    width: auto;
+    border-radius: 2.2rem;
+}
+
+.icerikKat a {
+    transition: .6s;
+    color: rgba(0,0,0,0.7);
+
+}
+
+.icerikKat p {
+    color: rgba(0,0,0,0.7);
+}
+
+.icerikKat a:hover {
+    color: #FF8A00;
+
+}
+
+input {
+    box-shadow: none !important;
+    outline: none;
+}
+
+input:active {
+    outline: none;
+    box-shadow: none;;
+}
+
+textarea {
+    box-shadow: none !important;
+    outline: none;
+}
+
+textarea:active {
+    outline: none;
+    box-shadow: none;;
+}
+
+.yorum-yap .input-group-text {
+    background-color: #FF8A00;
+    color: #fff;
+
+}
+
+.yorum-yap input {
+    border: 1px solid rgba(255,138,0,0.3);
+}
+
+.yorum-yap textarea {
+    border: 1px solid rgba(255,138,0,0.3);
+}
+
+
+input:focus {
+   outline:none;
+}
+
+.yorum-yap textarea {
+    height: 6rem;
+}
+
+.btn-orange {
+    background-color: #FF8A00 !important;
+    color: #fff !important;
+    width: 100%;
+}
+
+.btn-orange:hover {
+    background-color: #53494a !important;
+    color: #fff !important;
+    width: 100%;
+}
+
+.yorum-title {
+    letter-spacing: -2px !important;
+    font-size: 2rem;
+}
+
+.yorum p {
+    color: rgba(0,0,0,0.7);
+    transform: .6s;
+}
+
+.yorum {
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.yorum h3 {
+    font-size: 1rem;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: -1px;
+}
+
+.yorum .tarih {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .icerik-ana .ana-makale .icerik-ozellik {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icerik img {
+        width: 300px;
+        height: auto;
+    }
+}
+

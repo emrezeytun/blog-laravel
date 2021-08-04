@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slick test</title>
+    
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
+</head>
+<body>
+  
+  <div class="prev1">Önceki</div>
+  <div class="next1">Sonraki</div>
+
+   
+   <div class="slickComments">
+       <div>Test 1</div>
+       <div>Test 2</div>
+       <div>Test 3</div>
+       <div>Test 4</div>
+       <div>Test 5</div>
+       <div>Test 6</div>
+       <div>Test 7</div>
+       <div>Test 8</div>
+       <div>Test 9</div>
+       
+       
+   </div>
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+    <script>
+     $('.slickComments').slick({
+     infinite: true,
+  slidesToShow: 3,
+         vertical: true,
+         draggable: true,
+  slidesToScroll: 3,
+      prevArrow: $('.prev1'),
+      nextArrow: $('.next1')
+  });
+
+    
+    
+    </script>
+
+</body>
+</html>
