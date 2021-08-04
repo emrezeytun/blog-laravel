@@ -1,10 +1,10 @@
 ## Preview
 
-<img src="https://raw.githubusercontent.com/emrezeytun/blog-laravel/main/repo_img/blog_gif2-min.gif?token=AHAF2N7M5PQRHZDYQSIP2STBBKB3I">
+<img src="https://github.com/emrezeytun/blog-laravel/blob/main/repo_img/blog_gif2-min.gif">
 
 ## Panel Preview
 
-<img src="https://raw.githubusercontent.com/emrezeytun/blog-laravel/main/repo_img/blog_panel-min.gif?token=AHAF2N6G57HJ5ROXARXW6STBBKE7S">
+<img src="https://github.com/emrezeytun/blog-laravel/blob/main/repo_img/blog_panel-min.gif">
 
 
 ## Installation
